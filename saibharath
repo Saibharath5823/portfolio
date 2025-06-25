@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vemula Sai Bharath | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.8);
+      text-align: center;
+      padding: 4rem 1rem;
+      border-bottom: 3px solid #00ffff;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 1rem 0;
+      color: #00ffff;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    .profile-pic {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #00ffff;
+      margin: 0 auto;
+      display: block;
+    }
+    section {
+      background: rgba(255, 255, 255, 0.05);
+      margin: 2rem;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+      border-left: 5px solid #00ffff;
+    }
+    h2 {
+      color: #00ffff;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #00ffff;
+      padding-bottom: 0.5rem;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 2rem;
+    }
+    li {
+      margin: 0.5rem 0;
+    }
+    .edu-logo {
+      width: 40px;
+      height: 40px;
+      vertical-align: middle;
+      border-radius: 6px;
+      margin-right: 10px;
+    }
+    .certificate-img {
+      width: 100%;
+      max-width: 700px;
+      border: 3px solid #00ffff;
+      border-radius: 10px;
+      margin: 1rem 0;
+      display: block;
+    }
+    .social-links a {
+      display: inline-block;
+      margin: 0.5rem;
+      font-size: 1.2rem;
+      color: #00ffff;
+      text-decoration: none;
+    }
+    .social-links i {
+      margin-right: 8px;
+    }
+    .resume-download a {
+      color: #00ffff;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    footer {
+      background: rgba(0, 0, 0, 0.9);
+      text-align: center;
+      padding: 1rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://ik.imagekit.io/vjn2kubgy/WhatsApp%20Image%202025-06-25%20at%2012.06.46%20PM.jpeg?updatedAt=1750838497049" alt="Sai Bharath" class="profile-pic">
+    <h1>Vemula Sai Bharath</h1>
+    <p>Fresher | Full Stack Developer | Tech Enthusiast</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <ul>
+      <li>Passionate full-stack developer skilled in MERN stack, real-time communication, and geospatial tools.</li>
+      <li>Developed projects like IoT Crash Detection and Disaster Response Platform.</li>
+      <li>Explores generative AI, NLP sentiment analysis, and responsive applications.</li>
+      <li>Excellent in team collaboration, communication, and leadership.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Communication:</strong> Public speaking, email/report writing</li>
+      <li><strong>Languages:</strong> Java (Full Stack), Python</li>
+      <li><strong>Web Tech:</strong> HTML, CSS</li>
+      <li><strong>Databases:</strong> SQL, MongoDB</li>
+      <li><strong>Tools:</strong> PowerBI Desktop</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><img class="edu-logo" src="https://ik.imagekit.io/vjn2kubgy/images.png?updatedAt=1750840732125">Malla Reddy University – B.Tech CSE (2021–2025), CGPA: 7.7</li>
+      <li><img class="edu-logo" src="https://ik.imagekit.io/vjn2kubgy/images%20(1).png?updatedAt=1750840732338">Narayana Junior College – Intermediate (2019–2021), 72%</li>
+      <li><img class="edu-logo" src="https://ik.imagekit.io/vjn2kubgy/Untitled-design-2024-02-14T150049.429.jpg?updatedAt=1750840732256">D.A.V Public School – SSC (2018–2019), CGPA: 8.3</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Internships</h2>
+    <ul>
+      <li><strong>Gyrus.ai –</strong> AI/ML Developer Intern: Built scalable ML systems.</li>
+      <li><strong>Wrangler –</strong> Full Stack Developer: Dashboards, APIs, geospatial features.</li>
+      <li><strong>KPMG (Forage) –</strong> Data Analyst Virtual Internship: Data quality and insights.<br>
+        <img src="https://ik.imagekit.io/vjn2kubgy/WhatsApp%20Image%202025-06-25%20at%201.37.55%20PM%20(1).jpeg?updatedAt=1750839349618" class="certificate-img">
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Certificates</h2>
+    <ul>
+      <li>Machine Learning Intro – Coursera (IBM)</li>
+      <img src="https://ik.imagekit.io/vjn2kubgy/WhatsApp%20Image%202025-06-25%20at%201.37.55%20PM.jpeg?updatedAt=1750839349535" class="certificate-img">
+
+      <li>Generative AI – Coursera (IBM)</li>
+      <img src="https://ik.imagekit.io/vjn2kubgy/WhatsApp%20Image%202025-06-25%20at%201.37.57%20PM.jpeg?updatedAt=1750839349501" class="certificate-img">
+
+      <li>IoT Cloud – Coursera (Illinois)</li>
+      <img src="https://ik.imagekit.io/vjn2kubgy/WhatsApp%20Image%202025-06-25%20at%201.37.56%20PM.jpeg?updatedAt=1750839349566" class="certificate-img">
+
+      <li>Introduction to HTML – Coursera</li>
+      <img src="https://ik.imagekit.io/vjn2kubgy/WhatsApp%20Image%202025-06-25%20at%201.37.55%20PM%20(2).jpeg?updatedAt=1750839349586" class="certificate-img">
+
+      <li>Data Visualization – Coursera</li>
+      <img src="https://ik.imagekit.io/vjn2kubgy/WhatsApp%20Image%202025-06-25%20at%201.37.56%20PM%20(1).jpeg?updatedAt=1750839349574" class="certificate-img">
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li>IoT-based Vehicle Crash Detection System</li>
+      <li>Disaster Response Coordination Platform</li>
+      <li>Social Media Sentiment Analysis using NLP</li>
+      <li>Crop Yield Prediction with Deep Learning</li>
+      <li>Movies Data Analysis – Power BI</li>
+      <li>Car Rental Service – Python</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <ul>
+      <li><strong>Phone:</strong> 9113657379</li>
+      <li><strong>Email:</strong> saibharathvemula5823@gmail.com</li>
+      <li><strong>Location:</strong> Hyderabad, India</li>
+    </ul>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/vemula-sai-bharath-248796201" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+      <a href="https://github.com/Saibharath5823" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+      <a href="https://www.instagram.com/_marco_727l?igsh=YmRpYnkxejV1bHY2" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+      <a href="mailto:saibharathvemula5823@gmail.com"><i class="fas fa-envelope"></i>Email Me</a>
+    </div>
+    <div class="resume-download">
+      <p><i class="fas fa-file-download"></i> <a href="/mnt/data/Vemula-Sai-Bharath-FlowCV-Resume-20250313.pdf" target="_blank">Download Resume (PDF)</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vemula Sai Bharath. All rights reserved.</p>
+  </footer>
+</body>
+</html>
